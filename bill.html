@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        billing
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <style>
+        span{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            text-align:inherit;
+        }
+        p
+        { 
+            text-align: center;
+            color: rgb(49, 49, 141);
+            font-size:x-large;
+
+        }
+        #box{
+            width:240px;font-size: 13px;
+        }
+        #su{
+            height:40px;width:350px;background-color:rgb(49, 49, 141);border:black;text-decoration: solid;color:white;font-size: 20px;
+        }
+        #su:hover
+        {
+            background-color: rgb(11, 241, 69);
+            color: black;
+        }
+        #su:active{
+                background-color:rgb(11, 241, 69);
+                transform: translateY(5px);
+            }
+        }
+    </style>
+</head>
+<body class="container">
+    <br>
+    <span>
+    <div class="border " style="background-color: rgba(250, 223, 210, 0.788);padding-left: 100px;">
+        <br><p><b>BILL AND PLACE YOUR ORDER</b></p><br><br>
+      <form action="Thank.html" class="form-inline">
+                    <div class="row">
+                        <div class="col-md-5">Enter the no.of items: <input type="text" id="box" required class="form-control"></div>   <div class="col-md-5 ">Time:<input type="time" id="box" class="form-control"></div></div><br>
+                    Total Amount:<input type="text"  required id="box" class="form-control"><br>
+                    <div class="row">
+                        <div class="col-md-5">Name:<input type="text" placeholder="Enter your name as per in card" required id="box" class="form-control"></div>       <div class="col-md-5">Choose the card type:<select id="card" name="card"  class="form-select" style="width:200px;height:30px;font-size:13px;">  
+                <option value="choose" selected>CHOOSE</option>
+                <option value="CREDIT CARD">CREDIT CARD</option>
+                <option value="DEBIT CARD">DEBIT CARD</option>
+            </select></div></div><br><br>
+                   <div class="form-check-inline">
+                   <input type="radio" id="visa" name="card" checked class="form-check-input"><img src="credit.jpg"  class="img-responsive" weight="30px" height="30px">    <input type="radio" id="rupay" name="card" class="form-check-input"><img  src="ru.png"  class="img-responsive" weight="30px" height="30px"></div><br><br>
+                   <div class="row">
+                    <div class="col-md-5">Account number:<input type="text" placeholder="0000 0000 0000" maxlength="15" required id="box" class="form-control"></div>      <div class="col-md-5">Expire date:<input type="month" required style="width: 200px;" class="form-control"></div></div><br><br>
+                   CCV no:<input type="text" maxlength="3" required id="box" class="form-control">
+                   <br><center><button class="btn" id="su">CONFIRM PAYMENT</button></center><br>
+        </form>
+    </div>
+</span>
+</body>
+</html> 

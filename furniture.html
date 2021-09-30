@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .co{
+                height:70px;width:250px; background-color:rgb(205, 63, 134);border:none;text-decoration: solid;color:white;font-size: 30px;
+            }
+            .b{
+                height:49px;width:250px;background-color:red;border:none;text-decoration: solid;color:white;font-size: 20px;
+            }
+            .co:hover {background-color:rgba(138, 39, 39, 0.753)}
+
+            .co:active{
+                background-color:rgba(138, 39, 39, 0.753);
+                transform: translateY(4px);
+            }
+            .s{
+                font-size:25px;
+                text-decoration:none;
+                color: red;
+                font-style: normal;
+            }
+            .k{
+                color:white;
+                border-style:none;
+                border-color: red;
+                background-color: red;
+                padding:30px 90px;
+               text-align: center;
+               text-decoration:none;
+               font-size: 30px;
+            }
+            #menu {
+                list-style-type: none;
+                margin:30px 1000px 0px 50px;
+                padding:0px;
+                background:#dddd;
+
+            }
+        #lis{
+            display:grid;
+            text-decoration:solid;
+            color:black;
+            text-align: center;
+            background-color:whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a#lis:hover{
+            background-color: gray;
+            color: white;
+        }
+        </style> 
+        <title>
+            FURNITURE WEBSITE
+        </title>
+        <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: pink;" class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgb(117, 117, 182);">
+            <a class="navbar-brand" href="#">ROYALS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" style="text-decoration: none;">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a  class="nav-link" href="#a" style="text-decoration: none;">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#p" style="text-decoration: none;">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html" style="text-decoration: none;">CART</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cat" style="text-decoration: none;">OUR PRODUCTS</a>
+                </li>
+                <ul class="nav navbar-nav navbar-right bg-dark">
+                    <li style="background-color: rgb(117, 117, 182);"><a href="signup.html" style="color:black;"><span class="glyphicon glyphicon-user" style="color:black;"></span> Sign Up</a></li>
+                    <li style="background-color: rgb(117, 117, 182);"><a href="login.html" style="color:black;"><span class="glyphicon glyphicon-log-in" style="color:black;"></span> Login</a></li>
+                </ul>
+              </ul>
+            </div>
+          </nav><br><br><br>
+     <div class="border" style="background-image:url(homeback.gif);background-repeat:no-repeat;background-size: cover">   
+                                                      <center><font color="pink" size="+3"><i>  Welcome to our</i></font></br><br>
+        <font color="pink" size="+4"><h1><i>Royal Furniture</i></h1></font><br><br>
+            <font color="white" size="+10"><i><q>Decor the dreams with wood beauty and<br>
+    Decorate your Life with Arts</q></i></font></center>  <br><br><br>
+    </div><br><br>
+    <center>
+     <form class="form-groups"><input type="search" class="form-control" style="height:40px;width: 420px;" placeholder="Search your products" id="se"  autofocus>             <button id="se"  class="btn btn-danger" style="position:relative;height: 40px;width:200px;" type="submit">SEARCH</button>
+        </form></center>  
+        <br>
+        <br>
+    <center>
+        <font color="purple" size="+2"><a id="cat"><h1><b>CATALOG</b></h1></a></font><br>
+    </center>
+    <center>
+        <ul  class="list-group" style="font-size: 30px;text-align: center; width:450px;">
+            <li class="list-group-item list-group-item-success"><a href="#chairs" id=lis >CHAIR</a></li>
+            <li class="list-group-item list-group-item-success"><a href="#beds"  id="lis">BED</a></li>
+            <li class="list-group-item list-group-item-success" ><a href="#tables"  id="lis">TABLE</a></li>
+            <li class="list-group-item list-group-item-success" ><a href="#sofa"  id="lis">SOFA</a></li>
+            <li class="list-group-item list-group-item-success"  ><a href="#dinning" id="lis">DINING TABLE</a></li>
+        </ul>
+    </center>
+        <br>
+        <br>
+        <br>
+        <a id="chair"><font color="blue" size="+1" ><h1><b>CHAIR:</b></h1></font></a>
+        <table  id="chairs" class="table table-image" style=" vertical-align: middle;background-color: rgb(174, 174, 201);color:red;font-size:18px;">
+        <tr>
+           <td > <img src="chair.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="1"  name="chair" value="chair" >Rs.10,000</td>
+           <td > <img src="chair1.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="2"  name="chair1" value="chair1" >Rs.4000</td>
+           <td > <img src="chair2.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="3"  name="chair2" value="chair2" >Rs.9000</td>
+           <td > <img src="chair3.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="4"  name="chair3" value="chair3" >Rs.15,000</td>
+           <td > <img src="chair4.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="5"  name="chair4" value="chair4" >Rs.5000</td>
+        </tr>
+    </table>
+    <br>
+    <pre style="background-color: pink;">
+        <center><a href="bill.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;"> BUY </button></a>    <a href="furniture.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;">ADD TO CART</button></a></center>
+    </pre>
+   <br>
+        <br>
+        <br>
+    <a id="beds"><font color="blue" size="+1" ><h1><b>BEDS:</b></h1></font></a>
+    <table  id="beds" class="table table-image" style=" vertical-align: middle;background-color: rgb(174, 174, 201);color:red;font-size:18px;">
+        <tr>
+           <td > <img src="bed.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed"  name="bed" value="bed" >Rs.40,000</td>
+           <td > <img src="bed1.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed1"  name="bed1" value="bed1" >Rs.50,000</td>
+           <td > <img src="bed2.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed2"  name="bed2" value="bed2" >Rs.60,000</td>
+           <td > <img src="bed3.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed3"  name="bed3" value="bed3" >Rs.45,000</td>
+           <td > <img src="bed4.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed4"  name="bed4" value="bed4" >Rs.30,000</td>
+        </tr>
+    </table>
+    <br>
+    <pre style="background-color: pink;">
+        <center><a href="bill.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;"> BUY </button></a>    <a href="furniture.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;">ADD TO CART</button></a></center>
+    </pre>
+   <br>
+   <br>
+   <br>
+   <a id="tables"><font color="blue" size="+1" ><h1><b>TABLES:</b></h1></font></a>
+   <table  id="ta" class="table table-image" style=" vertical-align: middle;background-color: rgb(174, 174, 201);color:red;font-size:18px;">
+     <tr>
+        <td > <img src="tables.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="table"  name="table" value="table" >Rs.10,000</td>
+        <td > <img src="tables1.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="table1"  name="table1" value="table1" >Rs.15,000</td>
+        <td > <img src="table2.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="table2"  name="table2" value="table2" >Rs.30,000</td>
+        <td > <img src="table3.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="table3"  name="table3" value="table3" >Rs.15,000</td>
+        <td > <img src="tables4.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="table4"  name="table4" value="table4" >Rs.25,000</td>
+    </tr>
+  </table>
+  <pre style="background-color: pink;">
+    <center><a href="bill.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;"> BUY </button></a>    <a href="furniture.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;">ADD TO CART</button></a></center>
+    </pre>
+  <br>
+   <br>
+   <br>
+   <a id="sofa"><font color="blue" size="+1" ><h1><b>SOFA:</b></h1></font></a>
+   <table  id="so" class="table table-image" style=" vertical-align: middle;background-color: rgb(174, 174, 201);color:red;font-size:18px;">
+       <tr>
+          <td > <img src="sofa.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="sofa"  name="sofa" value="sofa" >Rs.25,000</td>
+          <td > <img src="sofa1.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="sofa1"  name="sofa1" value="sofa1" >Rs.20,000</td>
+          <td > <img src="sofa2.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="sofa2"  name="sofa2" value="sofa2" >Rs.20,000</td>
+          <td > <img src="sofa3.jpg" height="300" class="img-fluid"  width="300"><br><input type="checkbox" id="sofa3"  name="sofa3" value="sofa3" >Rs.15,000</td>
+          <td > <img src="sofa4.jpg" height="300" class="img-fluid" width="300"><br><input type="checkbox" id="sofa4"  name="sofa4" value="sofa4" >Rs.30,000</td>
+       </tr>
+   </table>
+   <br>
+   <pre style="background-color: pink;">
+    <center><a href="bill.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;"> BUY </button></a>    <a href="furniture.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;">ADD TO CART</button></a></center>
+    </pre>
+   <br>
+   <br>
+   <br>
+   <a id="dinning"><font color="blue" size="+1" ><h1><b>DINING TABLES:</b></h1></font></a>
+   <table  id="di" class="table table-image" style=" vertical-align: middle;background-color: rgb(174, 174, 201);color:red;font-size:18px;">
+     <tr>
+        <td class="w-25"> <img src="dinning.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox"  id="bed"  name="dinning" value="dinning">Rs.25,000</td>
+        <td class="col"> <img src="dinning1.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed1"  name="dinning1" value="dinning1">Rs.23,000</td>
+        <td class="col"> <img src="dinning2.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed2"  name="dinning2" value="dinning2">Rs.24,000</td>
+        <td class="col"> <img src="dinning3.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed3"  name="dinning3" value="dinning3">Rs.15,000</td>
+        <td class="w-25"> <img src="dinning4.jpg" class="img-fluid" height="300" width="300"><br><input type="checkbox" id="bed4"  name="dinning" value="dinning">Rs.14,000</td>
+     </tr>
+   </table>
+   <br>
+   <pre style="background-color: pink;">
+   <center><a href="bill.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;"> BUY </button></a>    <a href="furniture.html"><button class="btn btn-primary" style="height: 50px;width: 200px;font-size:20px;">ADD TO CART</button></a></center>
+   </pre>
+   <br>
+   <br>
+   <center>
+     <font color="blue" size="+3"><h1 ><b id="a">ABOUT US</b></h1></font><br>
+   </center>
+   <div   class="border border-primary border-3"style="border-radius: 30px;background-color:rgb(174, 174, 201)">
+    <p style="font-size: xx-large;text-align: center;font-family:'Times New Roman', Times, serif;font-size: x-large;background-color: rgb(174, 174, 201);">
+         <br> <b>LOCATION:</b>     <a href="https://www.google.com/search?q=royal+furniture+map&tbm=lcl&sxsrf=ALeKk01amPT1mM9iirwB_doeSEcl1Kh0rQ%3A1628605971211&ei=E44SYd2iDNLgz7sPg9qpmAk&oq=royal+furniture+map&gs_l=psy-ab.3..0i22i30k1j38l5.50393.51189.0.52722.4.4.0.0.0.0.353.702.0j1j1j1.3.0....0...1c.1.64.psy-ab..1.3.700...35i39k1j0i512k1j0i512i263i20k1.0.stV4Y54le5g#rlfi=hd:;si:,11.379754898280138,76.96385623359375;mv:[[11.3382918,77.7729524],[10.992833899999999,76.9292962]]"><img src="map.jpg" width="50" height="50"></a>
+          <br>
+          <br>
+                              Royal Furniture's is a leading firm in Southern Region especially in Domestic and Office furniture sales.Royal Furniture
+             is founded by Mr.K.J.Joy in the year of 2004.We have past 6 Years Experience in the furniture world.<br>
+
+                            We have a wide variety of attractive, elegant and ergonomic computer desks (including glass desks) and office chairs 
+            (including leather chairs) and let your office or home office radiate self-proclaimed elegance and splendor.
+            <img src="about us.png" class="rounded mx-auto d-block" height="300" width="400"><br>
+    <center> <b><ul class="list-group" style="font-size: 20px;text-align: center; width:400px;">  
+                            <li class="list-group-item list-group-item-light">Low cost, high quality</li>   
+                            <li class="list-group-item list-group-item-light">Great Furniture. Better Prices.</li>
+                            <li class="list-group-item list-group-item-light">The most awful design you will ever find.</li> 
+                            <li class="list-group-item list-group-item-light">Say goodbye to discomfort.</li>
+                            <li class="list-group-item list-group-item-light">Best quality in low prices is our mission.</li> 
+                        </ul>  </b></center>
+                        </p>
+    <br>
+   </div>
+   <br><br>
+    <center>
+        <font color="blue" size="+3"><h1 ><b id="p">CONTACT US</b></h1></font><br>
+    <div class="border border-primary border-3" style="border-radius: 100px;background-color: rgb(174, 174, 201)">
+    <br>
+    <form class="form-groups">
+        <b>NAME:</b>  <input class="form-control" type="TEXT" placeholder="Enter your name" id="mes"name="mes" style="height:25px;width:400px;font-size: 15px" required>
+        <br><br><b>TO:</b>
+        <input type="text" class="form-control" value="ROYAL FURNITURE" readonly id="to" name="to" style="height:25px;width:400px;font-size: 15px">
+        <br><br><b>Message: </b><br><br>
+        <textarea  placeholder="           Message here  "  class="form-control" id="mebox" name="mebox"  rows="10" cols="10" physical style="width: 400px;height: 150px;" required></textarea><br>
+        <button class="btn" style="height:40px;width: 100px;background-color: rgb(83, 185, 69);font-size: 20px;border-color:black;">POST</button>
+    </form>
+    <p style="font-size: x-large;">OR</p> 
+    <p style="font-size:x-large;color:red"><a href="mailto:subaharini2002@gmail.com"><button  style="height:40px;width: 100px;background-color:rgb(226, 19, 199);font-size: 20px;border-color:black;"class="btn">MAIL</button></a></p>
+</div>
+</center>
+  </body>
+</html>
